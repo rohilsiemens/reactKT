@@ -1,0 +1,38 @@
+.footer{
+    background-color: bisque;
+    height:20%
+}
+.navbar{
+    background-color: blueviolet;
+    height:20%
+}
+.body{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    background-color:yellowgreen;
+}
+.child1{
+    background-color:rgb(165, 220, 220);
+    height:250px;
+    width:250px;
+    border:1px solid black;
+    margin:2px;
+}
+.child2{
+    background-color:rgb(165, 220, 220);
+    height:250px;
+    width:250px;
+    border:1px solid black;
+    margin:2px;
+}
+.shimmer{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    background-color:rgb(165, 220, 220);
+    height:250px;
+    width:250px;
+    border:1px solid black;
+    margin:2px;
+}
