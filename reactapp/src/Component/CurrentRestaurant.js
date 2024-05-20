@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const CurrentRestaurant=(props)=>{
     const [currentNumber,setCurrentNumber]=useState(0);
@@ -10,8 +11,11 @@ export const CurrentRestaurant=(props)=>{
         onData(restaurantDetails[currentNumber]);
     }    
     return(
+        <Link to="/page1">
         <div className="child1">
         <button onClick={fillData}>Next Restaurant</button>
         </div>
+        </Link>
+        
     )
 }

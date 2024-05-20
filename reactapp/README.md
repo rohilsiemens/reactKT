@@ -76,3 +76,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 3. Bundler: Live reloading,code minification, Image optimisation
 4. jsX, component, babel, react fragment
 5. Props and Hooks
+6. Routing -Basic Routing,Error,Outlet,Dynamic Routing
+
+7. Redux and Context Api

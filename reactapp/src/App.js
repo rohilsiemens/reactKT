@@ -2,12 +2,13 @@ import './App.css';
 import { Footer1 } from './Component/Footer';
 import { Body } from './Component/Body';
 import { NavigationBar } from './Component/NavigationBar';
+import { Outlet } from 'react-router-dom';
 
 export function App() {
   return (
     <div className='App'>
     <NavigationBar/>
-    <Body/>
+    <Outlet/>
     <Footer1/>
     </div> 
   );
